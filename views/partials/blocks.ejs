@@ -1,0 +1,17 @@
+<div class="row">
+
+  <% for (blockdata.length, i = 0; i < 3; i++) { %>
+    <% block = blockdata[i] %>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title"><%- block.attributes.settings.label %></h3></div>
+        <div class="panel-body">
+          <p>Get the full JSON representation of this block
+            <a href="<%- block.links.self %>">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  <% } %>
+
+</div> <!-- row -->

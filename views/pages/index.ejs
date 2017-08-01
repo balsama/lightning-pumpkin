@@ -8,17 +8,13 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="container">
-
-  <div class="row">
-    <div class="col-md-6">
-      <p>Hello. I can plz consume content?</p>
-    </div>
-    <div class="col-md-6">
-    </div>
-  </div> <!-- row -->
-</div>
-
+  <div class="container">
+    <h1>Lightning Pumpkin</h1>
+    <p>Node app that consumed Headless Lightning Nightly build.</p>
+    <h2>Some blocks (no authentication needed)</h2>
+    <% include ../partials/blocks.ejs %>
+    <h2>Some Field Definitions (authentication needed)</h2>
+  </div>
 
 </body>
 </html>
